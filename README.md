@@ -1,6 +1,6 @@
 # autism-support-skill
 
-**English** | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+**English** | [简体中文](README.zh-CN.md)
 
 Agent skill that helps families support an autistic child, adolescent, or adult in everyday life: communication, emotions, learning, sensory needs, daily living, and age-appropriate goals.
 
@@ -85,17 +85,15 @@ If a missing fact would change the suggestion, the agent should ask one question
 
 ## Output
 
-```text
-### 一、问题理解
-### 二、可能原因分析
-### 三、专业建议
-### 四、具体实施步骤
-### 五、注意事项
-### 六、观察与评估
-### 七、后续建议
-```
+If the cause has a missing link, the agent asks one question and waits.
 
-Short questions can use a shorter form. A fictional filled example is in [examples/output-template.md](examples/output-template.md).
+When the situation is clear, the reply stays short:
+
+1. One sentence on what to do and why
+2. Two to four steps
+3. One thing to watch, or one thing not to do
+
+The agent uses the caregiver's language. A fictional example is in [examples/output-template.md](examples/output-template.md).
 
 ## Project layout
 
@@ -107,7 +105,6 @@ autism-support-skill/
 ├── skills.sh.json                # skills.sh repo-page grouping
 ├── README.md                     # English
 ├── README.zh-CN.md               # Simplified Chinese
-├── README.ja.md                  # Japanese
 ├── LICENSE
 ├── references/
 │   ├── age-stages.md             # Age bands and focus areas
@@ -122,7 +119,7 @@ autism-support-skill/
 |---|---|
 | `SKILL.md` | What the agent executes. YAML `name` / `description` control discovery. |
 | `skills.sh.json` | Groups the skill under **Family support** on the skills.sh repo page. Does not change install behavior. |
-| `README.md` / `README.zh-CN.md` / `README.ja.md` | Human-facing docs in three languages. |
+| `README.md` / `README.zh-CN.md` | Human-facing docs. The skill itself is English. |
 | `references/` | Read when choosing an age focus, a support method, or writing the child record. |
 | `examples/` | Output shape, plus fictional response and record examples. |
 

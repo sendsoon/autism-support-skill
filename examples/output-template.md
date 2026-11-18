@@ -1,75 +1,39 @@
-# 回答模板
+# Response template
 
-针对具体问题，优先采用以下结构。简单问题可以省略部分章节，但不要只给笼统建议。下面的孩子是**虚构的**，只用于展示结构，不要把这些句子写进真实回答。
+Keep replies short. The child below is **fictional**. Do not copy these sentences into a real reply.
 
-## 结构
+Write in the caregiver's language.
 
-### 一、问题理解
-简要复述孩子的实际表现，明确问题的核心。
+## When the cause has a gap
 
-### 二、可能原因分析
-从发展水平、沟通、情绪、感觉、环境及任务要求等角度分析，区分已知事实和待验证假设。
-
-### 三、专业建议
-给出符合孩子发展水平的具体支持策略，说明为什么这样做。
-
-### 四、具体实施步骤
-提供家长可以直接执行的方法：
-- 第一步：如何准备。
-- 第二步：如何引导。
-- 第三步：孩子出现不同反应时如何调整。
-- 第四步：如何逐渐提高独立性。
-
-### 五、注意事项
-说明不建议采取的做法、常见误区和潜在风险。
-
-### 六、观察与评估
-提出可以观察的指标，例如：
-- 是否更容易表达需求。
-- 是否能够独立完成更多步骤。
-- 是否能够更好地适应环境。
-- 是否能够使用有效的情绪调节方式。
-
-### 七、后续建议
-根据情况提出下一步支持方向，以及是否需要专业评估。
-
-## 虚构示例
-
-已知事实只有这些：虚构孩子 4 岁，在家想要零食时会拉家长的手走到柜子前，不说物品名称，能指认几张常见食物图片。不要把示例里的假设写成这个孩子已经证实的原因。
-
-```markdown
-### 一、问题理解
-孩子有明确需求，目前用“拉手走到柜子前”来表达，还不会说出想要的物品。核心是建立一种家长能看懂、孩子也做得到的请求方式。
-
-### 二、可能原因分析
-已知：孩子能用手引导家长，并能指认部分食物图片。
-待验证：他是还没掌握口头请求，还是现场太急、词语太难，所以先用手。不能从这一次行为断定他“没有沟通意愿”。
-
-### 三、专业建议
-先接住他已经会的手势，再在同一时刻配上一个很短的请求形式（图片或一个词）。这样做是因为请求已经出现，下一步是让这个请求更清楚，而不是先要求他先说话。
-
-### 四、具体实施步骤
-- 第一步：把 2–3 张他能指认的食物图片放在柜子旁，伸手就能够到。
-- 第二步：他拉你过去时，停一下，指向图片，说一次物品名称，等他点图片或做出近似动作，再打开柜子。
-- 第三步：如果他推开图片，仍先满足已经清楚的请求，下一次减少到 1 张图片；如果他点了图片，立刻给他该物品。
-- 第四步：连续多次能用图片请求后，再在图片旁边示范一个词，不把说话设成拿到物品的前提。
-
-### 五、注意事项
-不要为了让他开口而拿走食物、反复追问“说呀”，或把不会说话解释成不配合。图片沟通不是放弃说话。
-
-### 六、观察与评估
-一周内看：拉手之前或同时，是否开始看向或点选图片；拒绝时是否有比哭闹更清楚的动作。
-
-### 七、后续建议
-如果多数时候仍然无法让你知道他要什么，建议由言语语言治疗师评估是否系统使用 AAC。本示例不能判断他是否符合任何诊断。
-```
-
-## 不建议的写法
-
-先下结论，再补一句放之四海的建议：
+Ask one question. Do not add a plan yet.
 
 ```text
-这是典型的语言落后。多和他说话，他自然就会说了。
+You said he cries when the plan changes. Does this happen when he is told in words only, or also when he can see the next step?
 ```
 
-先复述已知表现，再把做法落到当次请求里，并写明哪一部分还需要验证。
+## When the situation is clear enough to act
+
+Use only these three parts:
+
+1. One sentence: what to do, and why.
+2. Two to four steps for this situation.
+3. One thing to watch, or one thing not to do.
+
+```text
+He already asks by pulling you to the cupboard. Make that request clearer before asking for speech.
+
+1. Put 1–3 food pictures he can point to beside the cupboard.
+2. When he pulls you over, pause, point to the pictures, and say the item once.
+3. Open the cupboard when he touches a picture. If he pushes the pictures away, still give the item you already understood, and next time use one picture.
+
+Watch whether he looks at or touches a picture as he pulls. Do not hold back the snack to force a word.
+```
+
+## What not to write
+
+A cause lecture, then a general suggestion:
+
+```text
+This may be language delay, sensory overload, or anxiety about change. In general, talk more, use visuals, and stay calm, and speech will develop.
+```

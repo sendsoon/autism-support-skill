@@ -12,3 +12,7 @@ references/*.zh-CN.md
 
 # Child records created while using the skill (never publish)
 autism-support-records/
+
+# Local skill install copies
+.agents/
+.cursor/

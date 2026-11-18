@@ -1,56 +1,58 @@
-# 成长记录模板
+# Record template
 
-下面的孩子是**虚构的**，只展示文件形状。真实记录里只写家长说过的内容，不要照抄这份示例。
+The child below is **fictional** and exists only to show the file shape. In a real record, write only what the caregiver said. Do not copy this example.
+
+Headings stay in English. Quotes of the caregiver's words stay in the original language.
 
 ## index.md
 
 ```markdown
-# 成长记录索引
+# Record index
 
-| 昵称 | 目录 | 首次记录 | 最近日志 | 最近估计年龄 |
+| Nickname | Folder | First record | Latest log | Latest age estimate |
 |---|---|---|---|---|
-| 果果 | 果果/ | 2026-11-18 | 2026-11-18 | 约 4 岁（精度：岁） |
+| Sam | Sam/ | 2026-11-18 | 2026-11-18 | about 4 years (precision: year) |
 ```
 
 ## profile.md
 
 ```markdown
 ---
-nickname: 果果
+nickname: Sam
 first_record_date: 2026-11-18
-age_reported: "4岁"
+age_reported: "4 years old"
 age_reported_years: 4
 age_reported_months: 0
 age_precision: year
 birthday:
-gender: 男
-school: 幼儿园中班
-primary_caregiver: 妈妈
+gender: boy
+school: preschool, second year
+primary_caregiver: mom
 ---
 
-# 果果
+# Sam
 
-年龄按 `first_record_date` 与 `age_reported` 推算。没有出生日期时，写成估计年龄，并保留精度。
+Calculate age from `first_record_date` and `age_reported`. If there is no birth date, label the age as an estimate and keep the precision.
 
-## 日常学习、生活与活动能力
+## Daily learning, self-care, and activities
 
-能自己用勺子吃完大部分饭。穿上衣需要把衣服拿好方向。尚未稳定使用厕所。
+Eats most of a meal with a spoon. Needs the shirt oriented before putting it on. Toilet use is not yet reliable.
 
-## 兴趣爱好
+## Interests
 
-反复摆地铁卡片，喜欢看列车进站。
+Lines up train cards and watches trains arrive.
 
-## 诊断及专业评估
+## Diagnosis and professional assessments
 
-未说明。
+Not stated.
 
-## 当前主要支持重点
+## Current support focus
 
-用已经会的手势表达想要的物品。
+Use a gesture he already has to request an item.
 
-## 档案变更
+## Profile changes
 
-- 2026-11-18：建立档案。当时年龄为家长所说的“4岁”。
+- 2026-11-18: Profile created. Age at that time was the caregiver's phrase "4 years old".
 ```
 
 ## logs/2026-11-18.md
@@ -58,17 +60,17 @@ primary_caregiver: 妈妈
 ```markdown
 # 2026-11-18
 
-估计年龄：约 4 岁（自 2026-11-18 记录的“4岁”推算；精度：岁）
+Estimated age: about 4 years (estimated from "4 years old" recorded on 2026-11-18; precision: year)
 
-## 想吃零食时拉手到柜子前
+## Pulls a hand to the cupboard for a snack
 
-- 记录时估计年龄：约 4 岁
-- 场景：家庭
-- 家长描述：想吃零食时拉着妈妈走到柜子前，不说物品名称。
-- 频率：未说明
-- 已尝试的做法和家长看到的效果：未说明
-- 本次建议要点：在柜子旁放 1–3 张他能指认的食物图片，点到图片再打开柜子。
-- 观察指标：拉手时是否看向或点选图片。
-- 待验证：是词语还没掌握，还是当时太急。
-- 延续：无
+- Estimated age at this entry: about 4 years
+- Setting: home
+- What the caregiver described: When he wants a snack he pulls Mom to the cupboard and does not say the item name.
+- Frequency: Not stated
+- What was already tried, and what the caregiver saw: Not stated
+- Suggestion given this time: Put 1–3 food pictures he can already point to beside the cupboard, and open it after he touches a picture.
+- What to watch: Whether he looks at or touches a picture as he pulls.
+- Still unverified: Whether the word is not available yet, or the moment is too rushed.
+- Follows: none
 ```

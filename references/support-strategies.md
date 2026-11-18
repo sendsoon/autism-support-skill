@@ -1,23 +1,23 @@
-# 干预与支持策略
+# Support strategies
 
-建议具体支持方法前阅读本文件。只选用与当前孩子的需求、场景和已有能力相匹配的方法，并说明适用条件与局限。
+Read this file before recommending a method. Choose only methods that match this child's need, setting, and skills, and say when each one fits and where it is limited.
 
-根据孩子的实际需求，合理参考以下循证支持方法：
+Depending on the child's needs, consider these evidence-informed approaches:
 
-- 发展性干预
-- 自然情境发展行为干预（NDBI）
-- 早期介入及家长辅导
-- 言语语言治疗
-- 辅助与替代沟通（AAC）
-- 正向行为支持（PBS）
-- 功能性行为评估（FBA）
-- 结构化教学及视觉支持
-- 适应性技能训练
-- 感觉环境调整
-- 个性化教育计划（IEP）
+- Developmental interventions
+- Naturalistic developmental behavioral intervention (NDBI)
+- Early support and caregiver coaching
+- Speech-language therapy
+- Augmentative and alternative communication (AAC)
+- Positive behavior support (PBS)
+- Functional behavior assessment (FBA)
+- Structured teaching and visual supports
+- Adaptive skill instruction
+- Sensory environment adjustments
+- An individualized education program (IEP)
 
-使用时应解释适用场景、实施条件和局限性。
+Explain the setting, the conditions required, and the limits.
 
-不将任何单一疗法宣传为适合所有孩子的万能方案。涉及专业治疗、医学干预和个体化训练时，应建议由具备相应资质的专业人员评估和实施。
+Do not present any single therapy as right for every child. When the step is professional therapy, medical care, or an individualized training program, a qualified person should assess and carry it out.
 
-对存在争议的干预方法，明确说明证据质量和争议。不建议未经证实的偏方、所谓根治方法或无依据的药物和补充剂。
+If a method is disputed, say what the evidence is like and what the dispute is. Do not suggest unproven remedies, claimed cures, or unsupported drugs or supplements.

@@ -1,6 +1,6 @@
 # autism-support-skill
 
-[English](README.md) | **简体中文** | [日本語](README.ja.md)
+[English](README.md) | **简体中文**
 
 给编程智能体用的孤独症谱系成长支持技能：帮助家庭理解孩子的发展特点，并在沟通、情绪、学习、感觉加工、生活自理和分年龄目标上给出可执行的做法。
 
@@ -9,6 +9,8 @@ npx skills add sendsoon/autism-support-skill
 ```
 
 本技能**不**诊断孤独症，**不**开具治疗方案，也**不**以消除孤独症特征为目标。
+
+技能正文、参考资料和示例是英文。与家长对话时，智能体使用家长正在使用的语言。
 
 ## 技能做什么
 
@@ -85,17 +87,15 @@ npx skills add sendsoon/autism-support-skill
 
 ## 产出
 
-```text
-### 一、问题理解
-### 二、可能原因分析
-### 三、专业建议
-### 四、具体实施步骤
-### 五、注意事项
-### 六、观察与评估
-### 七、后续建议
-```
+原因还缺一环时，只问一个问题，先不给方案。
 
-简单问题可以缩短。虚构的完整示例见 [examples/output-template.md](examples/output-template.md)。
+情况清楚后，回答保持很短：
+
+1. 一句话说明做什么、为什么
+2. 两到四个步骤
+3. 一个观察点，或一件不要做的事
+
+对中文用户用中文写。虚构示例见 [examples/output-template.md](examples/output-template.md)。
 
 ## 项目结构
 
@@ -107,7 +107,6 @@ autism-support-skill/
 ├── skills.sh.json                # skills.sh 仓库页分组
 ├── README.md                     # English
 ├── README.zh-CN.md               # 简体中文
-├── README.ja.md                  # 日本語
 ├── LICENSE
 ├── references/
 │   ├── age-stages.md             # 各年龄阶段重点
@@ -122,7 +121,7 @@ autism-support-skill/
 |---|---|
 | `SKILL.md` | 智能体实际执行的说明。YAML 的 `name` / `description` 决定能否被发现。 |
 | `skills.sh.json` | 在 skills.sh 仓库页把本技能归入 **Family support**。不影响安装。 |
-| `README.md` / `README.zh-CN.md` / `README.ja.md` | 给人看的三语说明。 |
+| `README.md` / `README.zh-CN.md` | 给人看的说明。技能本身是英文，这里保留中文版。 |
 | `references/` | 按需阅读的年龄阶段、支持方法和成长记录规则。 |
 | `examples/` | 输出结构，以及虚构的回答和档案示例。 |
 

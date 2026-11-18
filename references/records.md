@@ -1,110 +1,112 @@
-# 成长档案与问题日志
+# Profile and problem log
 
-读写记录前阅读本文件。建议内容、安全边界和回答结构仍以 `SKILL.md` 为准。
+Read this file before reading or writing records. Suggestions, safety limits, and the response shape still follow `SKILL.md`.
 
-记录放在**当前工作区**，不放进技能安装目录，也不要提交到 Git。
+Store records in the **current workspace**, not in the skill install directory, and do not commit them.
 
 ```text
 autism-support-records/
 ├── index.md
-└── <昵称>/
+└── <nickname>/
     ├── profile.md
     └── logs/
         └── YYYY-MM-DD.md
 ```
 
-目录名用家长给出的昵称。昵称里有空格或系统不允许的字符时，改成短横线。同名已经存在、又不能确定是同一个孩子时，先问，不要覆盖。
+Use the nickname the caregiver gave as the folder name. Replace spaces or characters the filesystem rejects with hyphens. If that folder already exists and you cannot tell whether it is the same child, ask. Do not overwrite it.
 
-若工作区是 Git 仓库，把 `autism-support-records/` 写入 `.gitignore`。只追加这一行，不要提交档案内容。
+If the workspace is a Git repository, add `autism-support-records/` to `.gitignore`. Add only that line. Do not commit the records.
 
-## 何时读写
+Write headings and the agent's notes in English. When the caregiver's own words matter, quote them in the original language inside the description field. Do not translate a quote into a smoother sentence and then drop the original.
 
-1. 回答涉及某个孩子之前，先读 `index.md` 和对应的 `profile.md`。有近期日志时，读最近几条，避免重复追问已经写过的事实。
-2. 有即时人身安全风险时，先给出安全保护建议，再补问和补记。
-3. 还没有这个孩子的档案：先同时问昵称和现在的年龄。用户已经说了的不要再问。得到这两项之前，可以说明一般原则，但不要把方案写成已经了解这个孩子。
-4. 同一轮回答结束后再写文件。写完告诉家长记在哪一则日志里。写失败就说明没有保存。
-5. 家长要求阶段回顾、对比变化或调整长期目标时，读完该孩子的 `profile.md` 和全部日志再分析。
+## When to read and write
 
-## 先问什么，后补什么
+1. Before answering about a child, read `index.md` and that child's `profile.md`. If recent logs exist, read the latest few so you do not ask again for facts already written down.
+2. If someone is in immediate danger, give the safety step first, then ask and record.
+3. If this child has no profile, ask for the nickname and current age together. Do not ask again for something already said. Before those two facts are known, you may explain a general principle, but do not write the plan as if you already know this child.
+4. Write the files after the reply in that turn. Tell the caregiver which log entry you wrote. If the write fails, say that nothing was saved.
+5. When the caregiver asks for a review, a comparison over time, or a change to a long-term goal, read that child's `profile.md` and all logs before you analyze.
 
-第一次只问昵称和年龄。
+## What to ask first
 
-其余字段空着时，不要一次发成表格。回答完当前问题后，若仍为空，按这个顺序每次补问一项：
+The first time, ask only for the nickname and age.
 
-1. 性别
-2. 主要抚养人（妈妈、爸爸、祖父母或其他角色，不要全名）
-3. 学校或日托（简称、学段，或“尚未入园”）
-4. 日常学习、生活和活动能力
-5. 兴趣爱好
+If other fields are empty, do not send them as a form. After you answer the current question, ask for one missing field, in this order:
 
-家长一次说了多项，就全部写入，不要为了凑顺序而重问。
+1. Gender
+2. Primary caregiver (mom, dad, grandparent, or another role; not a full name)
+3. School or daycare (a short label, a grade, or "not in school yet")
+4. Daily learning, self-care, and activities
+5. Interests
 
-## 年龄
+If the caregiver already gave several of these, write them all. Do not ask again just to follow the order.
 
-`profile.md` 的前置信息里保存：
+## Age
 
-- `first_record_date`：第一次为这个孩子写档案的日期，写成 `YYYY-MM-DD`。之后不改。
-- `age_reported`：家长原话，例如 `4岁`、`4岁半`、`4岁3个月`。
-- `age_reported_years` 与 `age_reported_months`：从原话拆出的数字。`4岁半` 记为 4 岁 6 个月。只说“4岁”时，月份记 0。
-- `age_precision`：`birthday`、`year_month` 或 `year`。
-- `birthday`：只有家长主动提供时才填。不主动索要出生日期。
+Store these fields in the `profile.md` front matter:
 
-以后每次使用档案时，用首次记录日推算，不把 `age_reported` 一直当成当前年龄。
+- `first_record_date`: the date the profile was first created, as `YYYY-MM-DD`. Never change it.
+- `age_reported`: the caregiver's words, for example `4 years old`, `4 and a half`, or `4 years 3 months`. Keep the original language of that phrase.
+- `age_reported_years` and `age_reported_months`: numbers parsed from that phrase. `4 and a half` is 4 years and 6 months. `4 years old` with no months is 4 years and 0 months.
+- `age_precision`: `birthday`, `year_month`, or `year`.
+- `birthday`: fill only if the caregiver offers it. Do not ask for a birth date.
 
-- 有出生日期：按出生日期计算到今天的实足年龄。
-- 只有年月：把首次记录日的年龄加上从那天到今天经过的整年、整月。
-- 只说了“几岁”：同样加上经过的年月，但必须写明这是估计。家长当时说的“4岁”可能已经含有不到 12 个月的零头，实际年龄可能略大或略小。
+Whenever you use the profile later, calculate age from the first record date. Do not keep treating `age_reported` as the current age.
 
-在建议和日志里写“约 4 岁 6 个月（自 2026-11-18 记录的‘4岁’推算）”。满整岁的表述要和这个估计一致，不要另写一个未经说明的年龄。
+- If there is a birth date, use completed years and months from that date to today.
+- If years and months were both stated, add the full years and months from the first record date to today.
+- If only a whole number of years was stated, add the elapsed years and months, and label the result as an estimate. "4 years old" on that day may already have included up to almost 12 months, so the true age may be somewhat higher or lower.
 
-家长后来纠正年龄或补充出生日期时，不改 `first_record_date` 和最初的 `age_reported`。把新事实写入前置信息的当前字段，并在“档案变更”留一句旧值、新值和日期。
+In suggestions and logs, write "about 4 years 6 months (estimated from '4 years old' recorded on 2026-11-18)". Do not also state a different age without saying where it came from.
+
+If the caregiver later corrects the age or gives a birth date, do not change `first_record_date` or the original `age_reported`. Write the new fact into the current fields, and add the old value, the new value, and the date under "Profile changes".
 
 ## profile.md
 
-稳定事实放这里。空着的字段保持空白，不要填“正常”“不详”或推测。
+Stable facts go here. Leave unknown fields blank. Do not write "typical", "unknown", or a guess.
 
-模板见 [examples/record-template.md](../examples/record-template.md)。
+The shape is in [examples/record-template.md](../examples/record-template.md).
 
-这些内容有变化时，更新正文，并把被替换的原句移到“档案变更”，不要直接删掉。
+When one of these changes, update the section and move the replaced sentence to "Profile changes". Do not delete it.
 
-- 性别
-- 学校或日托
-- 主要抚养人
-- 日常学习、生活与活动能力
-- 兴趣爱好
-- 诊断及专业评估（仅家长或书面评估明确说过的内容）
-- 当前主要支持重点
+- Gender
+- School or daycare
+- Primary caregiver
+- Daily learning, self-care, and activities
+- Interests
+- Diagnosis and professional assessments (only what the caregiver or a written report actually said)
+- Current support focus
 
-## 问题日志
+## Problem log
 
-每天一个文件：`logs/YYYY-MM-DD.md`。同一天多件事就在文件末尾追加，不覆盖已有条目。
+One file per day: `logs/YYYY-MM-DD.md`. If several things happen the same day, append. Do not overwrite earlier entries.
 
-每条用家长能对上的短标题，并尽量带上这些字段。家长没说的就写“未说明”，不要补造：
+Use a short title the caregiver would recognize. Include these fields. If the caregiver did not say, write "Not stated". Do not invent it.
 
-- 记录时估计年龄
-- 场景：家庭、学校、公共场所或社交场合
-- 家长描述：孩子做了什么、说了什么
-- 频率
-- 已尝试的做法和家长看到的效果
-- 本次建议要点
-- 观察指标
-- 待验证
-- 延续：若是在跟进某一旧问题，写上旧日志路径
+- Estimated age at this entry
+- Setting: home, school, a public place, or a social situation
+- What the caregiver described: what the child did or said
+- Frequency
+- What was already tried, and what the caregiver saw
+- Suggestion given this time
+- What to watch
+- Still unverified
+- Follows: if this continues an older problem, the path of that log
 
-家长之后反馈“试了怎么样”，追加一条新日志，用“延续”指向原来的条目，不要改写旧条目里的当时描述。
+When the caregiver later says how a suggestion went, append a new entry. Point "Follows" at the old entry. Do not rewrite what the old entry said at the time.
 
-## 综合分析
+## Review across logs
 
-只有家长要求回顾，或新问题明显依赖历史时，才做跨日志分析。分析时分开写：
+Review across logs only when the caregiver asks, or when a new question clearly depends on the history. Separate:
 
-- 反复出现的场景和需求
-- 家长反馈有效或无效的做法
-- 能力或兴趣上的变化
-- 仍然缺少的事实
-- 下一步只选一个支持重点
+- Settings and needs that keep returning
+- Steps the caregiver found helpful or unhelpful
+- Changes in skills or interests
+- Facts that are still missing
+- One next support focus
 
-不把多次日志合并成一次诊断，也不把某次建议写成已经证实的原因。
+Do not collapse several logs into a diagnosis. Do not treat one suggestion as a cause that has been confirmed.
 
-## 隐私
+## Privacy
 
-记录昵称，不记录户籍姓名、身份证号、住址、电话、学校全称和校址。家长已经写进对话里的敏感信息，不要再抄进档案。
+Record the nickname. Do not record a legal name, identity number, address, phone number, full school name, or school address. If the caregiver already typed sensitive details into the chat, do not copy them into the profile.

@@ -1,73 +1,73 @@
-# 全年龄段成长指导
+# Support across ages
 
-回答涉及阶段目标时阅读本文件。根据孩子实际年龄、发展水平和个体需求提供指导，不能仅根据年龄推断孩子的能力。`SKILL.md` 中的分析步骤、安全边界和回答结构仍然适用。
+Read this file before setting a stage goal. Use the child's age, current developmental level, and individual needs. Do not infer ability from age alone. The analysis steps, safety limits, and response shape in `SKILL.md` still apply.
 
-## 0～3岁：早期发展阶段
+## 0–3 years: early development
 
-重点关注：
-- 早期发展特征及专业评估
-- 共同注意与互动
-- 语言理解和表达
-- 手势、指向及辅助沟通
-- 游戏能力和模仿能力
-- 感觉反应与环境适应
-- 亲子互动与家庭早期支持
-- 日常作息和生活习惯
+Focus:
+- Early developmental signs and professional assessment
+- Joint attention and interaction
+- Understanding and expression
+- Gestures, pointing, and AAC
+- Play and imitation
+- Sensory responses and settling into the environment
+- Caregiver-child interaction and early support at home
+- Daily rhythms and routines
 
-指导目标：尽早识别发展需求，建立有效沟通方式，促进互动和基础生活能力发展。
+Goal: notice support needs early, build a way to communicate, and support interaction and basic daily skills.
 
-## 3～6岁：学前发展阶段
+## 3–6 years: preschool
 
-重点关注：
-- 语言及沟通能力
-- 游戏和想象能力
-- 社交互动
-- 情绪识别与表达
-- 如厕、穿衣、进食等生活自理
-- 集体活动适应
-- 幼儿园融合与入学准备
-- 注意力及学习基础能力
+Focus:
+- Language and communication
+- Play and imagination
+- Social interaction
+- Noticing and expressing emotion
+- Toileting, dressing, eating, and other self-care
+- Taking part in a group
+- Inclusive preschool and getting ready for school
+- Attention and early learning skills
 
-指导目标：帮助孩子建立基础生活技能、沟通能力和适应集体环境的能力。
+Goal: build basic daily skills, communication, and a way to take part in a group.
 
-## 6～12岁：小学阶段
+## 6–12 years: primary school
 
-重点关注：
-- 学习能力和个性化学习方法
-- 阅读、书写、数学及认知发展
-- 课堂规则和任务管理
-- 同伴交往及友谊建立
-- 情绪调节和挫折应对
-- 兴趣发展与优势培养
-- 校园适应及融合教育
-- 时间管理和生活自理
+Focus:
+- Learning and methods that fit this child
+- Reading, writing, math, and cognitive skills
+- Classroom routines and managing a task
+- Peers and friendship
+- Emotion regulation and coping with frustration
+- Interests and strengths
+- School participation and inclusive education
+- Time and daily living skills
 
-指导目标：提高学习参与度、独立完成任务的能力、社交参与能力和自我管理能力。
+Goal: increase participation in learning, finishing tasks with more independence, social participation, and self-management.
 
-## 12～18岁：青春期阶段
+## 12–18 years: adolescence
 
-重点关注：
-- 青春期生理与心理发展
-- 情绪波动和压力管理
-- 自我认知与身份认同
-- 社交关系及边界意识
-- 网络安全和人际安全
-- 学习规划及执行功能
-- 自我表达与自我倡导
-- 独立生活技能
-- 职业兴趣和未来规划
+Focus:
+- Physical and emotional changes in puberty
+- Emotion swings and stress
+- Self-understanding and identity
+- Relationships and boundaries
+- Online safety and safety with other people
+- Planning schoolwork and executive function
+- Self-expression and self-advocacy
+- Independent living skills
+- Work interests and future plans
 
-指导目标：帮助青少年建立自我认知、自主决策能力、社会适应能力和未来生活规划能力。
+Goal: support self-understanding, making one's own decisions, taking part in community life, and planning ahead.
 
-## 18岁以上：成年过渡阶段
+## 18 and older: transition to adulthood
 
-重点关注：
-- 高等教育和职业发展
-- 工作环境适应
-- 独立生活
-- 财务和时间管理
-- 社交及亲密关系中的边界与安全
-- 自我倡导和社会支持
-- 长期生活质量
+Focus:
+- Further education and work
+- Settling into a workplace
+- Living more independently
+- Money and time
+- Boundaries and safety in social and intimate relationships
+- Self-advocacy and support
+- Quality of life over the long term
 
-指导目标：提高自主生活能力、社会参与能力和生活满意度。
+Goal: increase autonomy, participation, and satisfaction with daily life.
