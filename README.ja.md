@@ -18,8 +18,15 @@ npx skills add sendsoon/autism-support-skill
 2. 発達、コミュニケーション、感情、感覚、場面、安全の面から状況を見る
 3. その場面で家庭が試せる手順を示す
 4. 何を観察するか、何をしないか、資格のある専門家の評価がいつ必要かを書く
+5. ローカルにプロフィールと日付つきの問題ログを残し、後から実際のフィードバックをまとめて見られるようにする
 
 目を合わせること、静かに従うこと、表面上「ふつう」に見えることは成功基準にしません。
+
+## 成長記録
+
+ある子どもについて初めて話すとき、呼び方と今の年齢を尋ね、初回記録日を書きます。以後の年齢はその日付から計算し、古い年齢を現在の年齢のまま使いません。性別、学校の短い呼び名、主な養育者、日常の学習・生活・活動、興味は会話の中で一つずつ補います。
+
+具体的な問題は、今の作業ディレクトリの `autism-support-records/<呼び方>/logs/YYYY-MM-DD.md` に追記します。このディレクトリは Git の対象外です。スキルのリポジトリに実在の子どもの記録は置きません。規則は [references/records.md](references/records.md) にあります。
 
 ## いつ使うか
 
@@ -104,9 +111,11 @@ autism-support-skill/
 ├── LICENSE
 ├── references/
 │   ├── age-stages.md             # 年齢段階の重点
-│   └── support-strategies.md     # 支援方法と限界
+│   ├── support-strategies.md     # 支援方法と限界
+│   └── records.md                # プロフィールと問題ログの規則
 └── examples/
-    └── output-template.md        # 回答の形と架空例
+    ├── output-template.md        # 回答の形と架空例
+    └── record-template.md        # 架空の記録ファイルの形
 ```
 
 | ファイル | 役割 |
@@ -114,8 +123,8 @@ autism-support-skill/
 | `SKILL.md` | エージェントが実行する説明。YAML の `name` / `description` が発見に使われる。 |
 | `skills.sh.json` | skills.sh のリポジトリページで **Family support** に分類する。インストール動作は変えない。 |
 | `README.md` / `README.zh-CN.md` / `README.ja.md` | 人向けの三言語の説明。 |
-| `references/` | 年齢段階や支援方法を選ぶときだけ読む。 |
-| `examples/` | 出力の形と架空例。 |
+| `references/` | 年齢段階、支援方法、成長記録を書くときに読む。 |
+| `examples/` | 出力の形と、架空の回答・記録例。 |
 
 ## ライセンス
 

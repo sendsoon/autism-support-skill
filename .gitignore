@@ -9,3 +9,6 @@ Thumbs.db
 SKILL.zh-CN.md
 examples/output-template.zh-CN.md
 references/*.zh-CN.md
+
+# Child records created while using the skill (never publish)
+autism-support-records/

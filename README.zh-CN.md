@@ -18,8 +18,15 @@ npx skills add sendsoon/autism-support-skill
 2. 从发展、沟通、情绪、感觉、场景和安全几方面理解情况
 3. 给出这个场景里可以尝试的步骤
 4. 说明观察什么、不建议做什么，以及何时需要合格的专业人员评估
+5. 在本地记下档案和按日期排列的问题日志，方便以后对照真实反馈做综合分析
 
 眼神接触、安静服从或表面上“像普通孩子”不是成功标准。
+
+## 成长记录
+
+第一次谈到某个孩子时，先问昵称和现在的年龄，并写下首次记录日期。之后用这个日期推算年龄，不把旧年龄一直当成当前年龄。性别、学校简称、主要抚养人、日常学习生活活动能力和兴趣爱好随对话补齐，一次只补问一项。
+
+每个具体问题追加到当前工作区的 `autism-support-records/<昵称>/logs/YYYY-MM-DD.md`。该目录已加入忽略列表，不会提交。技能仓库里没有真实孩子的档案。规则见 [references/records.md](references/records.md)。
 
 ## 何时使用
 
@@ -104,9 +111,11 @@ autism-support-skill/
 ├── LICENSE
 ├── references/
 │   ├── age-stages.md             # 各年龄阶段重点
-│   └── support-strategies.md     # 循证方法与使用边界
+│   ├── support-strategies.md     # 循证方法与使用边界
+│   └── records.md                # 档案与问题日志规则
 └── examples/
-    └── output-template.md        # 回答结构与虚构示例
+    ├── output-template.md        # 回答结构与虚构示例
+    └── record-template.md        # 虚构档案与日志形状
 ```
 
 | 文件 | 作用 |
@@ -114,8 +123,8 @@ autism-support-skill/
 | `SKILL.md` | 智能体实际执行的说明。YAML 的 `name` / `description` 决定能否被发现。 |
 | `skills.sh.json` | 在 skills.sh 仓库页把本技能归入 **Family support**。不影响安装。 |
 | `README.md` / `README.zh-CN.md` / `README.ja.md` | 给人看的三语说明。 |
-| `references/` | 按需阅读的年龄阶段与支持方法。 |
-| `examples/` | 输出结构，以及一个虚构示例。 |
+| `references/` | 按需阅读的年龄阶段、支持方法和成长记录规则。 |
+| `examples/` | 输出结构，以及虚构的回答和档案示例。 |
 
 ## 许可证
 

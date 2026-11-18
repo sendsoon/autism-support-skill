@@ -18,8 +18,15 @@ This skill does **not** diagnose autism, prescribe treatment, or promise to remo
 2. Reads the situation across development, communication, emotion, sensory input, setting, and safety
 3. Gives steps the family can try in that setting
 4. States what to watch, what not to do, and when a qualified professional should assess
+5. Stores a local profile and a dated problem log so later conversations can look back across real feedback
 
 Eye contact, quiet compliance, and looking "typical" are not the success criteria.
+
+## Records
+
+On the first conversation about a child, the agent asks for a nickname and current age, then writes `first_record_date`. Later ages are calculated from that date. Gender, school (short label only), primary caregiver, daily abilities, and interests are filled in over time, one missing item at a time.
+
+Each concrete problem is appended to `autism-support-records/<nickname>/logs/YYYY-MM-DD.md` in the **current workspace**. These files are gitignored. The skill repository does not contain a real child's record. See [references/records.md](references/records.md).
 
 ## When to use it
 
@@ -104,9 +111,11 @@ autism-support-skill/
 ├── LICENSE
 ├── references/
 │   ├── age-stages.md             # Age bands and focus areas
-│   └── support-strategies.md     # Evidence-informed methods and limits
+│   ├── support-strategies.md     # Evidence-informed methods and limits
+│   └── records.md                # Profile and problem-log rules
 └── examples/
-    └── output-template.md        # Response shape and a fictional example
+    ├── output-template.md        # Response shape and a fictional example
+    └── record-template.md        # Fictional profile and log shape
 ```
 
 | File | Role |
@@ -114,8 +123,8 @@ autism-support-skill/
 | `SKILL.md` | What the agent executes. YAML `name` / `description` control discovery. |
 | `skills.sh.json` | Groups the skill under **Family support** on the skills.sh repo page. Does not change install behavior. |
 | `README.md` / `README.zh-CN.md` / `README.ja.md` | Human-facing docs in three languages. |
-| `references/` | Progressive disclosure. Read when choosing an age focus or a support method. |
-| `examples/` | Output shape and a fictional example. |
+| `references/` | Read when choosing an age focus, a support method, or writing the child record. |
+| `examples/` | Output shape, plus fictional response and record examples. |
 
 ## License
 

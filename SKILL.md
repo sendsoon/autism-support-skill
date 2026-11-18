@@ -8,10 +8,12 @@ description: >
   outward normalization as success. Use when the user asks for practical help
   with autism, ASD, AAC, positive behavior support, sensory processing, school
   inclusion, or difficulties with speech, distress, peers, attention, self-care,
-  or the transition to adulthood. Triggers: 孤独症, 自闭症, ASD, 谱系, 辅助沟通,
+  or the transition to adulthood. Keeps a local Markdown profile and problem log
+  for each child: nickname, age anchored to the first record date, caregiver,
+  daily abilities, interests, and later feedback. Triggers: 孤独症, 自闭症, ASD, 谱系, 辅助沟通,
   AAC, 发脾气, 融合教育, 感觉加工, 生活自理, autism support.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   license: MIT
 ---
 
@@ -19,9 +21,11 @@ metadata:
 
 ## 关于本技能
 
-本技能是给编程智能体使用的通用工作流，不绑定某一款产品。按孩子的实际情况给出可在真实生活中执行的支持，不替代医生诊断，也不声称能建立跨对话档案。
+本技能是给编程智能体使用的通用工作流，不绑定某一款产品。按孩子的实际情况给出可在真实生活中执行的支持，不替代医生诊断。跨对话能用的只有工作区里已经写下来的 Markdown 档案和日志；没有这些文件时，不要声称记得这个孩子。
 
 各年龄阶段重点：[references/age-stages.md](references/age-stages.md)。提出阶段目标前，先阅读与孩子年龄对应的部分。
+
+成长档案与问题日志：[references/records.md](references/records.md)。读写记录前先阅读。空模板见 [examples/record-template.md](examples/record-template.md)。
 
 循证支持方法及使用边界：[references/support-strategies.md](references/support-strategies.md)。建议具体方法前先阅读。
 
@@ -154,7 +158,7 @@ metadata:
 - 已经尝试过的方法及效果
 - 家庭和学校支持条件
 
-当信息不足且会影响建议准确性时，优先提出最关键的一个问题，不要一次性要求家长填写大量信息。
+当信息不足且会影响建议准确性时，优先提出最关键的一个问题，不要一次性要求家长填写大量信息。例外：这个孩子还没有档案时，先同时询问昵称和年龄，这两项一起问。
 
 根据后续反馈动态调整方案，不重复询问已经明确的信息。
 
@@ -165,7 +169,20 @@ metadata:
 - 进展判断标准
 - 调整条件
 
-不得虚构孩子的诊断、能力或成长经历。不要声称能够自动建立跨对话档案；只有在实际可用的记忆或用户提供的信息范围内使用历史资料。
+不得虚构孩子的诊断、能力或成长经历。历史资料只来自用户当次说明，以及 [references/records.md](references/records.md) 规定的本地 Markdown。文件没写成，就告诉用户没写成。
+
+### 成长记录
+
+每次讨论某个孩子时：
+
+1. 在当前工作区查找 `autism-support-records/`。有即时安全风险时，先给安全建议，再补记。
+2. 没有该孩子的档案：先问昵称和现在的年龄。用户已经说出的不要再问。问完并得到回答后，再给出针对这个孩子的方案。
+3. 第一次写入时记下 `first_record_date`（当天日期）和家长当时说的年龄。以后用这个日期推算年龄，不把旧年龄一直当作当前年龄。没有出生日期时，写明这是估计。
+4. 性别、学校、主要抚养人、日常学习生活活动能力、兴趣爱好写进 `profile.md`。已经空着、而且这次还不影响安全建议时，回答之后再补问其中一项。
+5. 用户每次反馈具体问题，在该孩子的 `logs/YYYY-MM-DD.md` 追加一条。只记用户说过的事实、本次建议和待观察点。
+6. 用户以后要做阶段回顾时，先读 `profile.md` 和已有日志，再综合哪些场景反复出现、哪些做法有反馈、哪些仍待验证。
+
+主要抚养人记角色，不记对方的全名。学校记家长给出的简称或学段。记录目录加入 `.gitignore`，不提交。
 
 ## 9. 专业性与安全边界
 
@@ -180,7 +197,7 @@ metadata:
 7. 尊重孩子拒绝、表达需求和沟通的权利。
 8. 对可能涉及身体健康、发育倒退、严重睡眠问题、营养问题、癫痫或其他医学问题的情况，及时建议寻求专业医疗帮助。
 9. 对存在即时人身安全风险的情况，优先提供安全保护建议并指导联系当地紧急服务。
-10. 保护儿童隐私，不要求家长提供真实姓名、学校、住址等不必要的身份信息。
+10. 保护儿童隐私。不要求真实姓名、身份证号、住址、电话或能定位到家庭的精确信息。学校只记家长主动提供的简称或学段，不追问学校全称和校址。档案只留在本地工作区。
 
 ## 10. 沟通风格
 
