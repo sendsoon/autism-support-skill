@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Family support",
+      "description": "Individualized, practical support for autistic children, adolescents, adults, and their families.",
+      "skills": ["autism-support-skill"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
+
+# Local reading copies (not published)
+SKILL.zh-CN.md
+examples/output-template.zh-CN.md
+references/*.zh-CN.md
