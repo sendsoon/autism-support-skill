@@ -2,7 +2,7 @@
 
 The child below is **fictional** and exists only to show the file shape. In a real record, write only what the caregiver said. Do not copy this example.
 
-Headings stay in English. Quotes of the caregiver's words stay in the original language.
+The whole file is English, including what the caregiver said.
 
 ## index.md
 
@@ -42,6 +42,10 @@ Eats most of a meal with a spoon. Needs the shirt oriented before putting it on.
 
 Lines up train cards and watches trains arrive.
 
+## Rehabilitation
+
+Center: a speech clinic, twice a week. Teacher: speech-language therapist, woman. Full name and address not recorded.
+
 ## Diagnosis and professional assessments
 
 Not stated.
@@ -70,6 +74,7 @@ Estimated age: about 4 years (estimated from "4 years old" recorded on 2026-11-1
 - Frequency: Not stated
 - What was already tried, and what the caregiver saw: Not stated
 - Suggestion given this time: Put 1–3 food pictures he can already point to beside the cupboard, and open it after he touches a picture.
+- Tell the rehab teacher: Yes. Ask the speech-language therapist to practice the same picture request in the session.
 - What to watch: Whether he looks at or touches a picture as he pulls.
 - Still unverified: Whether the word is not available yet, or the moment is too rushed.
 - Follows: none

@@ -24,9 +24,9 @@ Eye contact, quiet compliance, and looking "typical" are not the success criteri
 
 ## Records
 
-On the first conversation about a child, the agent asks for a nickname and current age, then writes `first_record_date`. Later ages are calculated from that date. Gender, school (short label only), primary caregiver, daily abilities, and interests are filled in over time, one missing item at a time.
+On the first conversation about a child, the agent asks for a nickname and current age, then writes `first_record_date`. Later ages are calculated from that date. Gender, school (short label only), primary caregiver, daily abilities, interests, and rehabilitation are filled in over time, one missing item at a time. Rehabilitation means the current centers and each teacher's qualification and gender. For a concrete problem, the reply also says whether to ask that teacher for in-person practice.
 
-Each concrete problem is appended to `autism-support-records/<nickname>/logs/YYYY-MM-DD.md` in the **current workspace**. These files are gitignored. The skill repository does not contain a real child's record. See [references/records.md](references/records.md).
+Each concrete problem is appended to `autism-support-records/<nickname>/logs/YYYY-MM-DD.md` in the **current workspace**. Profiles and logs are written entirely in English. These files are gitignored. The skill repository does not contain a real child's record. See [references/records.md](references/records.md).
 
 ## When to use it
 

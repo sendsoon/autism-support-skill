@@ -17,7 +17,7 @@ Use the nickname the caregiver gave as the folder name. Replace spaces or charac
 
 If the workspace is a Git repository, add `autism-support-records/` to `.gitignore`. Add only that line. Do not commit the records.
 
-Write headings and the agent's notes in English. When the caregiver's own words matter, quote them in the original language inside the description field. Do not translate a quote into a smoother sentence and then drop the original.
+Write the whole profile, index, and every log in English. Translate what the caregiver said into English. Do not add facts while translating, and do not leave the original language in the file.
 
 ## When to read and write
 
@@ -38,6 +38,7 @@ If other fields are empty, do not send them as a form. After you answer the curr
 3. School or daycare (a short label, a grade, or "not in school yet")
 4. Daily learning, self-care, and activities
 5. Interests
+6. Rehabilitation: which centers the child currently attends, and for each teacher the qualification and gender. One question may ask for both. Do not ask for the teacher's full name, the center's address, or a phone number.
 
 If the caregiver already gave several of these, write them all. Do not ask again just to follow the order.
 
@@ -46,7 +47,7 @@ If the caregiver already gave several of these, write them all. Do not ask again
 Store these fields in the `profile.md` front matter:
 
 - `first_record_date`: the date the profile was first created, as `YYYY-MM-DD`. Never change it.
-- `age_reported`: the caregiver's words, for example `4 years old`, `4 and a half`, or `4 years 3 months`. Keep the original language of that phrase.
+- `age_reported`: the caregiver's age statement, written in English, for example `4 years old`, `4 and a half`, `4 years 3 months`, or `born in 2019`.
 - `age_reported_years` and `age_reported_months`: numbers parsed from that phrase. `4 and a half` is 4 years and 6 months. `4 years old` with no months is 4 years and 0 months.
 - `age_precision`: `birthday`, `year_month`, or `year`.
 - `birthday`: fill only if the caregiver offers it. Do not ask for a birth date.
@@ -74,6 +75,7 @@ When one of these changes, update the section and move the replaced sentence to 
 - Primary caregiver
 - Daily learning, self-care, and activities
 - Interests
+- Rehabilitation: short center label, and each teacher's qualification and gender. No full name or address.
 - Diagnosis and professional assessments (only what the caregiver or a written report actually said)
 - Current support focus
 
@@ -89,6 +91,7 @@ Use a short title the caregiver would recognize. Include these fields. If the ca
 - Frequency
 - What was already tried, and what the caregiver saw
 - Suggestion given this time
+- Tell the rehab teacher: yes or no, and the one in-person skill to ask for if yes. Not stated if the caregiver has no rehab teacher.
 - What to watch
 - Still unverified
 - Follows: if this continues an older problem, the path of that log
@@ -109,4 +112,4 @@ Do not collapse several logs into a diagnosis. Do not treat one suggestion as a 
 
 ## Privacy
 
-Record the nickname. Do not record a legal name, identity number, address, phone number, full school name, or school address. If the caregiver already typed sensitive details into the chat, do not copy them into the profile.
+Record the nickname. Do not record a legal name, identity number, address, phone number, full school name, school address, a therapist's full name, or a center's address. A short center label plus the teacher's qualification and gender is enough. If the caregiver already typed sensitive details into the chat, do not copy them into the profile.

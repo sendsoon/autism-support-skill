@@ -27,7 +27,7 @@ He already asks by pulling you to the cupboard. Make that request clearer before
 2. When he pulls you over, pause, point to the pictures, and say the item once.
 3. Open the cupboard when he touches a picture. If he pushes the pictures away, still give the item you already understood, and next time use one picture.
 
-Watch whether he looks at or touches a picture as he pulls. Do not hold back the snack to force a word.
+Watch whether he looks at or touches a picture as he pulls. Do not hold back the snack to force a word. Ask the speech therapist to practice this same picture request in the session.
 ```
 
 ## What not to write

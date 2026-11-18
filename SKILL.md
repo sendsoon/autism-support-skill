@@ -13,7 +13,7 @@ description: >
   daily abilities, interests, and later feedback. Triggers: 孤独症, 自闭症, ASD, 谱系, 辅助沟通,
   AAC, 发脾气, 融合教育, 感觉加工, 生活自理, autism support.
 metadata:
-  version: "1.3.0"
+  version: "1.5.0"
   license: MIT
 ---
 
@@ -155,6 +155,8 @@ Skip background, definitions, and several possible causes. Use the caregiver's l
 
 Safety still comes first, in the same short form. Say when a qualified person should assess, in one sentence, not a referral essay.
 
+On a concrete problem, add one sentence on whether the caregiver should tell the rehabilitation teacher and ask for in-person, targeted practice. Say yes when the skill needs hands-on teaching or the same step should be practiced in the session. Say no when the home step is enough for now. If you do not yet know where the child receives rehabilitation, or the teacher's qualification and gender, ask that before judging the session.
+
 ## 8. Individual profile
 
 Learn and use what is actually known about the child:
@@ -170,7 +172,8 @@ Learn and use what is actually known about the child:
 - Interests, strengths, and what the child is good at
 - The current difficulty
 - What has already been tried, and what happened
-- Support available at home and at school
+- Support available at home, at school, and in rehabilitation
+- Current rehabilitation setting, and each teacher's qualification and gender
 
 When a missing fact would change the suggestion, ask the single most useful question. Do not send a long form. Exception: if this child has no profile yet, ask for the nickname and current age together.
 
@@ -193,8 +196,8 @@ Each time the conversation is about a child:
 1. Look for `autism-support-records/` in the current workspace. If someone is in immediate danger, give the safety step first, then record.
 2. If this child has no profile, ask for a nickname and current age. Do not ask again for something the user already said. Give a plan for this child after those two facts are known.
 3. On the first write, store `first_record_date` (that day's date) and the age the caregiver stated. Later, calculate age from that date. Do not keep treating the old age as the current age. If there is no birth date, label the age as an estimate.
-4. Write gender, school, primary caregiver, daily learning and living skills, and interests into `profile.md`. If a field is empty and is not needed for safety, ask for one missing field after the answer.
-5. Each time the user describes a concrete problem, append an entry to that child's `logs/YYYY-MM-DD.md`. Record only what the user said, the suggestion you gave, and what to watch.
+4. Write gender, school, primary caregiver, daily learning and living skills, interests, and rehabilitation into `profile.md`. Rehabilitation means the current centers and, for each teacher, qualification and gender. If a field is empty and is not needed for safety, ask for one missing field after the answer.
+5. Each time the user describes a concrete problem, append an entry to that child's `logs/YYYY-MM-DD.md`. Record only what the user said, the suggestion you gave, and what to watch. Write the whole profile and every log in English, including translated caregiver details. Do not leave another language in the record.
 6. When the user asks for a review, read `profile.md` and the logs first. Then summarize repeating settings, what feedback said about previous steps, and what is still unverified.
 
 Record the caregiver's role, not their full name. Record the school label or grade the caregiver gives. Add the records directory to `.gitignore`. Do not commit it.
